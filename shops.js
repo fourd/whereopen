@@ -105,49 +105,28 @@
 */
 var shops = [
 	{
-		"shopname":"Fakeshop",
-		"address":"Ya Butt",
-		"postcode":"SY23 1JG",
-		"times": [[{"open":"03:00", "close":"01:00"}]],
-		"sells": ["pizza", "bread"]
-	},
-	{
-		"shopname":"a food pub",
-		"address":"Ya Butt",
-		"postcode":"SY23 1JG",
-		"times": [[{"open":"19:00", "close":"05:00"}]],
-		"sells": ["booze", "other food"]
-	},
-	{
-		"shopname":"Dr Squiddy's Late Night Calamari Emporium",
-		"address":"2 Butt Island",
-		"postcode":"SY23 1JG",
-		"times": [[{"open":"01:00", "close":"05:00"}]],
-		"sells": ["sushu"]
-	},
-	{
-		"shopname":"top spar",
+		"shopname":"Top Spar",
 		"address":"39-40 great darkgate street",
 		"postcode":"SY23 1DE",
 		"times": [[{"open":"07:00", "close":"23:00"}]],
 		"sells": ["groceries","frozen food","alcohol","tobacco"]
 	},
 	{
-		"shopname":"24 hour spar",
+		"shopname":"24 Hour Spar",
 		"address":"32 Terrace Road",
 		"postcode":"SY23 2AE",
 		"is24hour": true,
 		"sells": ["groceries","hot food","frozen food","alcohol","tobacco"]
 	},
 	{
-		"shopname":"little spar",
+		"shopname":"Little Spar",
 		"address":"Northgate",
 		"postcode":"SY23 2EN",
 		"times": [[{"open":"07:00", "close":"23:00"}]],
 		"sells": ["groceries","hot food","frozen food","alcohol","tobacco"]
 	},
 	{
-		"shopname":"penparcau spar",
+		"shopname":"Penparcau Spar",
 		"address":"Awel Y Don",
 		"postcode":"SY23 1RR",
 		"times": [[{"open":"05:30", "close":"22:00"}]],
@@ -195,6 +174,32 @@ var shops = [
 		"phone":"01970 612111",
 		"times": [[{"open":"11:00", "close":"23:00"}]],
 		"sells": ["pizza"]
+	},
+	{
+		"shopname":"Lidl",
+		"address":"Rheidol Retail Park",
+		"postcode":"SY23 2LL",
+		"times":
+			[
+				//sunday
+				[{"open":"10:00", "close":"16:00"}],
+				//mon-sat
+				[{"open":"08:00", "close":"20:00"}]
+			],
+		"sells": ["groceries","bread","alcohol"]
+	},
+	{
+		"shopname":"Iceland",
+		"address":"Rheidol Retail Park",
+		"postcode":"SY23 2LL",
+		"times":
+			[
+				//sunday
+				[{"open":"10:00", "close":"16:00"}],
+				//mon-sat
+				[{"open":"08:30", "close":"19:00"}]
+			],
+		"sells": ["groceries","alcohol"]
 	},
 	
 ];
