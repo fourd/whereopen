@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="wopen.css" />
+		<link rel="icon" type="image/x-icon" href="favicon.ico" />
+		<title>
+			Where's open?
+		</title>
+	</head>
+	<body>
+		<div id="content">
+			<p id="prefix">You need to enable javascript for this site to work. You can view the source code if you like.</p>
+			<p id="shopstring"></p>
+		</div>
+		<!--<div class="linkbox" id="lunkbox">
+			<p id="lonkbox"><a href="https://github.com/fourd/fivejs">fivejs on GitHub</a></p>
+		</div>
+		-->
+		<script>document.getElementById("prefix").innerHTML="Loading...";</script>
+		<script src="moment/moment.min.js"></script>
+		<script src="moment/moment-timezone.min.js"></script>
+		<script src="moment/moment-timezone-data.min.js"></script>
+		<script src="shops.js"></script>
+		<script src="look.js"></script>
+		<!-- todo: use require.js so only does.js is showing-->
+	</body>
+</html>
