@@ -201,5 +201,92 @@ var shops = [
 			],
 		"sells": ["groceries","alcohol"]
 	},
+	{
+		"shopname":"Hollywood Pizza",
+		"address":"28 Pier Street",
+		"postcode":"SY23 2LN",
+		"times":
+			[
+				//sunday
+				[{"open":"17:00", "close":"01:00"}],
+				//mon
+				[{"open":"17:00", "close":"02:59"}],
+				//tue
+				[{"open":"17:00", "close":"02:59"}],
+				//wed
+				[{"open":"17:00", "close":"02:59"}],
+				//thu
+				[{"open":"17:00", "close":"02:59"}],
+				//fri
+				[{"open":"17:00", "close":"03:30"}],
+				//sat
+				[{"open":"17:00", "close":"03:30"}],
+			],
+		"sells": ["pizza"]
+	},
+	{
+		"shopname":"Hot Dumplings",
+		"times":
+			[
+				//sunday
+				[{"open":"17:00", "close":"22:00"}],
+				//mon
+				[{"open":"17:00", "close":"02:59"}],
+				//CLOSED ON TUESDAYS. TODO: alter
+				[{"open":"12:00", "close":"12:01"}],
+				//wed
+				[{"open":"17:00", "close":"22:00"}],
+				//thu
+				[{"open":"12:00", "close":"22:00"}],
+				//fri
+				[{"open":"17:00", "close":"22:00"}],
+				//sat
+				[{"open":"17:00", "close":"22:00"}],
+			],
+		"sells": ["chinese takeaway""]
+	},
+	{
+		"shopname":"Light of Asia",
+		"times":
+			[
+				[{"open":"17:30", "close":"23:59"}]
+			],
+		"sells": ["indian food"]
+	},
+	{
+		"shopname":"Poundland",
+		"times":
+			[
+				//sunday
+				[{"open":"08:30", "close":"16:00"}],
+				//mon-sat
+				[{"open":"08:30", "close":"17:00"}]
+			],
+		"sells": ["snackfood"]
+	},
+	{
+		"shopname":"Shilam",
+		"times":
+			[
+				[{"open":"12:00", "close":"23:59"}]
+			],
+		"sells": ["indian food"]
+	},
+	{
+		"shopname":"Sun Hong",
+		"times":
+			[
+				[{"open":"12:00", "close":"23:59"}]
+			],
+		"sells": ["chinese takeaway"]
+	},
+	{
+		"shopname":"TaMed Da",
+		"times":
+			[
+				[{"open":"08:00", "close":"22:00"}]
+			],
+		"sells": ["canteen food"]
+	},
 	
 ];
