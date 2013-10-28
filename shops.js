@@ -243,7 +243,7 @@ var shops = [
 				//sat
 				[{"open":"17:00", "close":"22:00"}],
 			],
-		"sells": ["chinese takeaway""]
+		"sells": ["chinese takeaway"]
 	},
 	{
 		"shopname":"Light of Asia",
